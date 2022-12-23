@@ -1,0 +1,20 @@
+[
+	{
+		"id": 2,
+		"title": "Camisa",
+		"description": "The best",
+		"price": 500,
+		"thumbnail": "http/:Camisa.com",
+		"code": 710251,
+		"stock": 8
+	},
+	{
+		"id": 3,
+		"title": "Camisa",
+		"description": "The best",
+		"price": 500,
+		"thumbnail": "http/:Camisa.com",
+		"code": 710251,
+		"stock": 8
+	}
+]
