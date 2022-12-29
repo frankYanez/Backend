@@ -144,8 +144,34 @@ const { application } = require("express");
 // ACCEDER A LAS PROPIEDADES DE LOS PARAMETROS
 // miURL.searchParams.get('ordenar')
 
+//Cuando subamos la pagina a internet y nos asignen el puerto, hay que poner proccess.env.PORT asi se autoasigna el puerto
+
+//Router
+
+// Paso1: se llama al modulo router y se le asigna a una variable que reemplazaria al cido repetido routerNombre = express.Router()
+
+//Paso2: app.use('/api/cursos/programacion' , routerNombre) se le asiga a app.use ('valor que se repite' , nombre de variable que reemplaza ese valor)
+
+// ejemplo de como quedaria:
+// routerMatematicas.get('/', (req,res)=>{
+
+// })
 
 
+//Metodo POST: req.body contiene la informacion a enviar, por lo cual se almacena en una variable para luego pushearlo al array de productos/cursos
+
+//Ejemplo
+// routerProgramacion.post('/', (req, res) => {
+//     let cursoNuevo = req.body;
+//     programacion.push(cursoNuevo) ;
+//     res.send(JSON.stringify(programacion) );
+//     3
+    
+//     module.exports] = routerProgramacion;
+
+
+//Metodo Patch: object.assign(productoAActualizar,informacionActualizada): para actualizar los valores de un objeto
+    
 
 
 // <-------------CODER------------------>

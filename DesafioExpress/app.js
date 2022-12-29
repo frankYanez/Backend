@@ -12,7 +12,7 @@ console.log(products);
 
 
 app.get('/products',(req,res)=>{
-    const limit = req.query
+    const limit = req.query.limit
     
     if(limit){
        const filter = products.filter( product => product.id <= limit)

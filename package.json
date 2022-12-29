@@ -12,5 +12,13 @@
     "express": "^4.18.2"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankYanez/Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frankYanez/Backend/issues"
+  },
+  "homepage": "https://github.com/frankYanez/Backend#readme",
   "description": ""
 }
