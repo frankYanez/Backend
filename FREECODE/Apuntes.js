@@ -159,7 +159,7 @@ const { application } = require("express");
 
 
 //Metodo POST: req.body contiene la informacion a enviar, por lo cual se almacena en una variable para luego pushearlo al array de productos/cursos
-
+//Existen 3 formas de enviar informacion del cliente al servidor. Req.params, req.query o req.body
 //Ejemplo
 // routerProgramacion.post('/', (req, res) => {
 //     let cursoNuevo = req.body;
@@ -183,5 +183,8 @@ const { application } = require("express");
 
 
 {/* <-------------------ROUTER / MILDWEARE-----------------------> */}
+// app-usetexpress. Jsont));
+// app.use(express.urlencoded({ extended: true }));
+// app.use(express.static(‘src/public'))
 
 // application.use(express.static('src/public')): envia el html estatico
