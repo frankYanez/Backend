@@ -188,3 +188,17 @@ const { application } = require("express");
 // app.use(express.static(‘src/public'))
 
 // application.use(express.static('src/public')): envia el html estatico
+
+
+
+//<--------WEBSOCKET---------->
+//Es un protocolo de comunicacion basado en TCP
+//La comunicacion es BIDIRECCIONAL, el servidor le envia formacion al cliente sin que este la haya solicitado
+
+//const {Server} = require('socket.io)
+
+//const socketServer 0 new Server(httpServer) <- http server es la ejecucion del app.
+
+
+
+// Multer: Mildware de tercero
